@@ -85,7 +85,7 @@ public class HelloServiceMaster
 		heading = driver.findElementByTagName("h1").getText();
 
 		// check that heading matches company page
-		assertThat(heading).contains("Service with a Purposes");
+		assertThat(heading).contains("Service with a Purpose");
 	}
 
 	@Test
